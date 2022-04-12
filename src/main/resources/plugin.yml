@@ -1,0 +1,19 @@
+name: GunGame
+version: ${project.version}
+main: me.snazzy.gungame.Main
+api-version: 1.18
+authors: [ MrSnazzy ]
+description: GunGame Plugin
+commands:
+  ready:
+    usage: ready
+  unready:
+    usage: unready
+  force:
+    usage: force <start|end>
+    permission: force.use
+    permission-message: "You don't have the required permission for this command."
+  fix:
+    usage: fix
+    permission: fix.use
+    permission-message: "You don't have the required permission for this command."
